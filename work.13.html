@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <script type="text/javascript" src="js/regist.js"></script>
+</head>
+<body>
+<div class="reg_back">
+    <div class="reg_left">
+    </div>
+
+      <div class="reg_center">
+        <div class="reg_form">
+            <form action="#" method="post" id="form">
+                <table>
+                 <tr>
+                 <td class="td_left"><label for="password">密码</label></td>
+                 <td class="td_right"><input type="password" name="password" placeholder="请输入密码(请设置6-12位字符)"
+                                                    id="password">
+                  <span id="s_password" class="error"></span>
+                 </td>
+
+                 </tr>
+				<tr>
+			  <td class="td_left"><label for="rename">姓名</label></td>
+				  <td class="td_right"><input type="text" name="rename" placeholder="请输入姓名" id="rename">
+					
+					       <span id="s_rename" class="error"></span>
+					  </td>
+					
+					</tr>
+					
+                    <tr>
+                        <td class="td_left"><label>性别</label></td>
+                        <td class="td_right"><input type="radio" name="gender" value="male" checked> 男
+                            <input type="radio" name="gender" value="female"> 女
+                        </td>
+
+
+                    </tr>
+					
+                    </tr>
+
+                    <tr>
+                        <td class="td_left"><label>血型</label></td>
+                        <td class="td_right"><input type="radio" name="blood type" value="O" checked> O
+                            <input type="radio" name="blood type" value="A"> A
+							<input type="radio" name="blood type" value="B"> B
+							<input type="radio" name="blood type" value="AB"> AB
+							<input type="radio" name="blood type" value="稀有血型"> 稀有血型
+                        </td>
+						
+    <tr>
+                        <td class="td_left"><label>性格</label></td>
+                        <td class="td_right">
+							<input type="checkbox" name="nature" value=" " checked> 热情大方
+                            <input type="checkbox" name="nature" value=" "> 温柔体贴
+							<input type="checkbox" name="nature" value=" "> 多情善感
+							
+                        </td>
+						
+                    </tr>
+					
+
+                    </tr>
+					
+                    <tr>
+                        <td class="td_left"><label for="file">文件</label></td>
+                        <td class="td_right"><input type="file" name="file" 
+                            <span id="s_file" class="error"></span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="td_left"><label for="text">简介</label></td>
+                        <td class="td_right"><input type="text" name="简介" id="简介"></td>
+                    </tr>
+					
+	<option>城市</option><select id="pro" name="pro">
+    	<option>-请选择-</option>
+        <option>北京市</option>
+        <option>上海市</option>
+        <option>天津市</option>
+        <option>重庆市</option>
+        <option>河北省</option>
+</select>
+</tr>
+                </table>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="button" value="提交" id="btn_sub" onclick="submitForm()">提交</button>
+                    </td>
+
+                    <td colspan="2" align="center">
+                        <button id="reset" value="重置" >重置</button>
+                    </td>
+                </tr>
+            </form>
+        </div>
+    </div>
+</div>  
+<script type="text/javascript" src="js/regist.js"></script>
+<style>
+</style>
+</body>
+</html>
